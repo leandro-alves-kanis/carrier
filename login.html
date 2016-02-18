@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" type="image/png" href="imgs/playkids-icon.png" />
+    <title>PlayKids - Login</title>
+
+    <!-- main css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/pk-style-main.css" rel="stylesheet">
+    <link href="css/pk-style-checkout-main.css" rel="stylesheet">
+    
+    <!-- css for diverent devices -->
+    <link rel='stylesheet' media='all and (max-width: 991px)' href='css/pk-style-mobile.css' />
+    <link rel='stylesheet' media='all and (min-width: 768px) and (max-width: 991px)' href='css/pk-style-tablet.css' />
+    <link rel='stylesheet' media='all and (min-width: 992px)' href='css/pk-style-full.css' />
+    <link rel='stylesheet' media='all and (min-width:  1200px)' href='css/pk-style-tv.css' />
+
+    <!-- font -->
+    <script src="https://use.typekit.net/nho5lua.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- scripts -->
+    <script src="js/validation.js"></script>
+    <script src="js/jquery.base64.js" type="text/javascript"></script>
+    <script src="js/jquery.cookie.js" type="text/javascript"></script>
+    <script src="js/account.sdk.js" type="text/javascript"></script>
+    <script src="js/http.utils.js" type="text/javascript"></script>
+    <script src="js/login.js"></script>
+
+    <!-- Start Google Analytics Widget --> 
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-66652148-1', 'auto');
+    ga('send', 'pageview');
+    </script> 
+    <!-- End Google Analytics Widget -->
+
+    <!-- Start Visual Website Optimizer Asynchronous Code -->
+    <script type='text/javascript'>
+    var _vwo_code=(function(){
+    var account_id=203866,
+    settings_tolerance=2000,
+    library_tolerance=2500,
+    use_existing_jquery=false,
+    // DO NOT EDIT BELOW THIS LINE
+    f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+    </script>
+    <!-- End Visual Website Optimizer Asynchronous Code -->
+
+    <!-- Start ShopBack Code -->
+    <script type="text/javascript">
+    var _st_account = 497;
+    (function () {
+    var ss = document.createElement('script');
+    ss.type = 'text/javascript';
+    ss.async = true;
+    ss.src = '//app.shoptarget.com.br/js/tracking.js';
+    var sc = document.getElementsByTagName('script')[0];
+    sc.parentNode.insertBefore(ss, sc);
+    })();
+    </script>
+    <!-- End ShopBack Code -->
+  </head>
+  <body class="checkout">
+  <!-- Facebook widget -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5&appId=270512919648335";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NWNFV5"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NWNFV5');</script>
+  <!-- End Google Tag Manager -->
+
+    <header class="pk-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-md-push-9 safe">
+            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+            <span class="safe-text">ambiente seguro</span>
+          </div>
+          <div class="col-md-3 col-md-pull-3 pk-logo">
+            <img src="imgs/logo-playkids.png" class="logo-playkids" alt="PlayKids">
+          </div>
+          <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-pull-3 col-md-offset-0">
+            <h4>Passo 1 de 2</h4>
+            <h1 id="title">Faça seu Login</h1>
+            <p>Entre com seu email e senha do PlayKids.</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="pk-main" id="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3  col-md-4 col-md-offset-4">
+            <div class="loginmodal-container">
+              <div class="errors"></div>
+              <form class="form-signin" id="loginForm" action="success.html" method="POST" >
+                <label for="inputEmail">Email</label>
+                <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Digite o seu email" required autofocus>
+                <span id="passwordFieldGroup">
+                  <label for="inputPassword">Senha</label>
+                  <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Digite uma senha de sua escolha" required>
+                  <label class="checkbox"><input id="forgotPassword" type="checkbox" value="">Esqueci minha senha</label>
+                </span>
+                <button class="btn btn-primary btn-pk" id="continueButton" type="button">Continuar</button>
+                <input type="submit" id="submitButton" style="display: none"/>
+              </form><!-- /form -->
+            </div>
+          </div>          
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="fb-like" data-href="https://www.facebook.com/PlayKidsBrasil" data-width="230" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+          </div>
+          <div class="col-md-6">
+            <img src="imgs/logo-playkids.png" class="logo-playkids" alt="PlayKids">
+          </div>
+          <div class="col-md-3">
+            <p>Em caso de dúvida fale conosco:</p>
+            <p>suporte@playkids.com</p>
+            <p>0800 602 5080</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

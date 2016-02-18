@@ -1,0 +1,18 @@
+/*
+ * tablet css
+ */
+/* * mobile css */
+/* * common devices css */
+/* typography */
+/* layout */
+.pk-price-destaque h2:before {
+	top: -32px;
+	width: 86%;}
+.safe {
+	text-align: right;
+	background: none;}
+
+header .logo-playkids {display: inline-block;}
+footer .logo-playkids {display: none;}
+.checkout h4 {margin-top: 30px;}
+.checkout footer p:nth-child(1) {margin-top: 30px;} 

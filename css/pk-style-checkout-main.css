@@ -1,0 +1,111 @@
+/*
+ * common devices css
+ */
+
+/* typography */
+section {margin: 10px 0 50px;
+}
+h1, h2, h3, h4, p, a {font-family: museo-sans-rounded, arial; color: #7d32a4;line-height: 1.2em;}
+h1 {text-align: center;}
+h4 {
+    color: #37c887;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px 0 0 0;
+    font-weight: 700;;
+}
+p {font-size: 16px; font-weight: normal;color: #AAA;}
+header p {font-size: 19px; font-weight: normal;color: #9c9d9f;text-align: center;margin: 0;padding: 0 60px;}
+footer p {text-align: right; font-size: 14px;margin: 4px 0;}
+footer p:nth-child(n+2) {font-weight: 900}
+footer {}
+.pk-header {padding: 52px 0 0;}
+.btn-pk {
+    padding: 16px 70px;
+    margin-top: 45px;
+}
+.pk-header h1, .pk-header h3 {
+    color: #7d32a4;
+    margin-top: 5px;
+}
+label {
+    color: #AAA;
+    font-weight: normal;
+    margin-top: 12px;
+    display: block;
+    text-align: left;
+}
+input[type="email"], input[type="password"],  input[type="text"] {
+    border-radius: 0;
+    font-size: 16px;
+    padding: 27px 20px;
+}
+input[type="email"]:focus, input[type="password"]:focus,  input[type="text"]:focus{
+    box-shadow: none;
+    border-color: #37c885;
+    color: #37c885;
+}
+.loginmodal-container{
+    text-align: center;
+}
+.legenda-botao {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 2px solid #FFF;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+}
+.legenda-botao:hover {
+    color: #37c885;
+    text-decoration: none;
+}
+
+header .logo-playkids {display: inline-block;}
+footer .logo-playkids {display: none;}
+
+form .glyphicon-lock {
+    top: -43px;
+    float: right;
+    margin-right: 15px;
+}
+.input-group-addon:last-child {border-radius: 0; background: #ebf2f8;}
+.credit {width: 50px;}
+body {padding-bottom: 150px;}
+
+.operadoras {
+}
+
+.box-sm {
+    display:block;
+    text-align: center;
+    background-color: #f2f6f9;
+    border: 2px solid #FFF;
+    border-radius: 16px 16px 16px 16px;
+    -moz-border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 27px 0;
+    margin-top: 30px;
+}
+
+.box-sm:hover {
+    background-color: #FFF;
+    -webkit-box-shadow: 0px 19px 67px -26px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 19px 67px -26px rgba(0,0,0,0.75);
+    box-shadow: 0px 19px 67px -26px rgba(0,0,0,0.75);
+}
+
+.box-sm p {
+    text-align: center;
+    height:74px;
+    margin-bottom: 0;
+}
+.box-sm img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,47 @@
+
+body{
+	padding-bottom: 100px;}
+h1{
+	font-size: 24px;
+	padding: 0px 44px;}
+/* layout */
+.pk-header{
+	padding-top: 0;
+	padding-bottom: 0;}
+.pk-logo {
+	text-align: center;
+	margin-top: 20px;}
+.pk-price {
+	margin-top: 30px;}
+.pk-price-destaque .pk-price-inner {
+	padding-bottom: 42px;}
+.pk-price-destaque {
+	margin-top: 10px;}
+.pk-price-destaque h2:before {
+	top: -42px;
+	width: 80%;
+	background-position: 64%;
+	background-size: 60%;}
+.pk-price-destaque:before {
+	top: -30px;
+	right: 0px;
+	font-size: 14px;
+	padding: 22px 10px;
+	width: 65px;
+	height: 70px;
+	background-size: 100%;}
+.pk-price-destaque h2 {
+	padding: 20px 0;}
+.safe {
+	text-align: center;
+	background: #FFF;
+	padding: 20px;
+	margin-top: 0;
+}
+footer{text-align: center;}
+footer .logo-playkids {margin: 30px 0;}
+footer p {text-align: center;}
+
+header .logo-playkids {display: none;}
+footer .logo-playkids {display: inline-block;}
+.checkout header p {font-size: 18px; padding: 0;} 

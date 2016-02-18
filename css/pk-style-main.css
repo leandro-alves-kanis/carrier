@@ -1,0 +1,255 @@
+/*
+ * common devices css
+ */
+
+/* typography */
+* {
+    text-rendering: optimizelegibility;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+}
+body {
+	background-color: #edf2f6;
+}
+
+section {
+    margin: 55px 0;}
+header {padding: 20px 0;}
+
+h1, h2, h3, p {font-family: museo-sans-rounded, arial; color: #7d32a4;  line-height: 1.2em;}
+h1, h2 {font-weight: 900;}
+h1{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 29px;}
+h3 {font-weight: 700;}
+h4{
+    font-weight: normal;
+    color: #37c887;}
+p {font-size: 16px; font-weight: normal;}
+strong{color: #fff568;}
+h5 {
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 900;
+    font-size: 19px;
+    color: #aaa;;}
+
+/* layout */
+
+.pk-header{
+	overflow: hidden;
+	padding: 52px 0 42px;
+}
+
+.pk-quote {
+	text-align: center;
+	background-color: #ecf2f6;
+}
+.pk-quote p{color: #a0a0a0;}
+
+.logo-playkids {}
+
+.btn-pk, .btn-simple{
+	background-color: #7d32a4;
+	border-color: #7d32a4;
+	font-size: 19px;
+	font-family: museo-sans-rounded, arial, sans-serif;
+	padding-top: 18px; 
+	padding-bottom: 16px; 
+	margin-top: 18px; 
+	margin-bottom: 20px;
+	box-shadow: 0px 4px 1px rgba(125,50,164, 0.2);
+	letter-spacing: 0.1em;
+}
+
+.btn-simple {
+    font-size: 16px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    margin-top: 30px;
+    box-shadow: none;
+    margin-bottom: 0;
+    width: 65%;;
+}
+
+.btn-pk:hover, .btn-pk:active, .btn-simple:hover, .btn-simple:active  {
+	background-color: #5b1a7e;
+	border-color: #5b1a7e;
+}
+
+.btn-pk-green {
+	background-color: #37c887;
+	border-color: #37c887;
+	box-shadow: 0px 4px 1px rgba(55,200,135, 0.2);
+}
+.btn-pk-green:hover, .btn-pk-green:active {
+	background-color: #2fba7c; 
+	border-color: #2fba7c; 
+}
+
+.pk-price .btn-pk {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.pk-price {
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 16px 16px 16px 16px;
+	-moz-border-radius: 16px 16px 16px 16px;
+	-webkit-border-radius: 16px 16px 16px 16px;
+	border: 0px solid #000000;
+	-webkit-box-shadow: 0px 19px 67px -26px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 19px 67px -26px rgba(0,0,0,0.75);
+	box-shadow: 0px 19px 67px -26px rgba(0,0,0,0.75);
+}
+
+.pk-price h1{} 
+.pk-price h2{
+    background-color: #37c887;
+    color: #FFF;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 0;
+    border-radius: 16px 16px 0px 0px;
+	-moz-border-radius: 16px 16px 0px 0px;
+	-webkit-border-radius: 16px 16px 0px 0px;
+    padding: 20px;
+    margin-top: 0;
+} 
+
+.pk-price h3{
+    font-size: 15px;
+    margin-top: 0;} 
+.pk-price h4{
+    margin-top: 0;} 
+.pk-price li p{;
+    font-weight: normal;
+
+}
+.mensalidade {
+    font-weight: 900;
+    font-size: 46px;
+    margin-bottom: 0;
+} 
+.pk-price-inner {
+    padding: 32px 50px 43px;
+}
+.pk-price-destaque .pk-price-inner {
+    padding: 32px 50px 80px;
+}
+.mensalidade small{
+    font-size: 23px;
+    font-weight: normal;
+}
+.pk-price ul {
+    text-align: left;
+    list-style-image: url('../imgs/list-marker.png');
+    padding-left: 23px;;
+}
+
+.pk-price-destaque {
+    border: 3px solid #7d32a4;
+    margin-top: -34px;
+    box-shadow: 0px 9px 28px 0px rgba(0,0,0,0.5);
+}
+
+.pk-price-destaque h2:before {
+	display: block;
+	position: absolute;
+	top: -79px;
+	background-image: url("../imgs/stars.png");
+	height: 57px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: 43%;
+	content: "";
+
+}
+.pk-price-destaque:before {
+	display: block;
+	position: absolute;
+	top: -69px;
+	background-image: url("../imgs/sticker.png");
+	height: 91px;
+	width: 91px;
+	background-repeat: no-repeat;
+	background-position: 43%;
+	content: "45% OFF";
+	right: -11px;
+	font-family: museo-sans-rounded, arial, sans-serif;
+	color: #FFF;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 1em;
+	padding: 24px;
+}
+
+.pk-price-destaque h2 {
+    background-color: #7d32a4;
+    -webkit-border-radius: 16px 16px 0px 0px;	
+    -mox-border-radius: 16px 16px 0px 0px;	
+    border-radius: 10px 10px 0px 0px;
+    padding: 32px 0;
+    font-size: 24px;
+}
+
+hr {
+    margin-top: 33px;
+    margin-bottom: 33px;
+    border-top-width: 2px;
+}
+
+.safe {
+    color: #f69546;
+    font-weight: 700;
+    text-align: right;
+    font-size: 19px;
+    margin-top: 31px;
+}
+
+.glyphicon-lock {
+	background: url("../imgs/locker.png");
+	padding: 14px 10px;
+	background-repeat: no-repeat;
+}
+
+.glyphicon-lock:before {
+	content: none;
+}
+
+.safe span {display: inline-block;vertical-align: middle;}
+
+.pk-header h1, .pk-header h3 {
+    color: #7d32a4; }
+
+.checkbox input[type=checkbox]{
+    display: none;
+}
+
+.has-error {
+	border: red solid 1px !important;
+	color: red !important;
+}
+
+.error-message {
+	text-align: left;
+	color: red;
+}
+
+.alert strong {color: inherit;}
+.alert {
+	font-family: museo-sans-rounded, arial, sans-serif;
+	border-radius: 0;
+}
+
+.img-success{
+	text-align: center;
+}
+.img-success img {
+	width: 80%;
+}
